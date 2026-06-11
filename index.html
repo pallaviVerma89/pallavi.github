@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pallavi — Portfolio</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <h1 class="site-title">Pallavi Verma</h1>
+        <nav class="nav">
+          <a href="#projects">Projects</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <h2>Hi — I'm Pallavi</h2>
+          <p>Frontend developer and designer. I build clean, accessible web experiences.</p>
+          <a class="btn" href="#projects">See my work</a>
+        </div>
+      </section>
+
+      <section id="projects" class="projects container">
+        <h3>Selected Projects</h3>
+        <div class="grid" id="projectsGrid">
+          <!-- Project cards inserted by JS -->
+        </div>
+      </section>
+
+      <section id="about" class="about container">
+        <h3>About</h3>
+        <div class="profile">
+          <h4>Professional Summary</h4>
+          <p>4+ years of experience in the IT industry with strong knowledge in Power BI Desktop and Administration, and experience with On‑Premise and Cloud databases. Led automation of reporting processes, reducing reporting time by 50%. Skilled at gathering business requirements and translating them into data visualizations that support decision making. A dynamic professional with 8 years of experience in the software development life cycle.</p>
+
+          <h4>Key Skills</h4>
+          <ul>
+            <li>Data Visualization & Data Discovery</li>
+            <li>Power BI Desktop, Power BI Service</li>
+            <li>MS Office, Outlook, Teams</li>
+            <li>Databases: SQL Server, Oracle, MS Excel</li>
+          </ul>
+
+          <h4>Professional Experience</h4>
+          <h5>Data Analyst — Generation Analytics (Power BI and SQL)</h5>
+          <ul>
+            <li>Partnered with stakeholders to deliver end-to-end Power BI reporting solutions, including interactive dashboards and executive scorecards.</li>
+            <li>Built advanced DAX measures, optimized data models, and implemented dynamic reporting features (filters, slicers, drill-through).</li>
+            <li>Published and managed reports in Power BI Service, configured gateways, refresh schedules, permissions, and governance.</li>
+            <li>Implemented static and dynamic Row-Level Security and developed time-intelligence measures (YTD, QTD, MTD, rolling-periods).</li>
+          </ul>
+
+          <h5>Sales Volume Analytics (Power BI and SQL)</h5>
+          <ul>
+            <li>Designed enterprise reporting to analyze sales performance, integrated SQL Server and Excel sources into consolidated datasets.</li>
+            <li>Built reusable datasets, leveraged DAX for trend analysis and forecasting, and delivered mobile-enabled dashboards.</li>
+            <li>Applied role-based security and optimized dataset refresh and performance.</li>
+          </ul>
+
+          <h5>Products Performance Daily Reporting</h5>
+          <ul>
+            <li>Automated daily reporting processes and performed ETL with Power Query across multiple sources.</li>
+            <li>Developed KPI-driven dashboards, custom visuals, and supported users with dashboard adoption and enhancements.</li>
+          </ul>
+
+          <h4>Education</h4>
+          <p>Bachelor of Engineering (Computer Engineering), 2015</p>
+        </div>
+      </section>
+
+      <section id="contact" class="contact container">
+        <h3>Contact</h3>
+        <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">© <span id="year"></span> Pallavi Verma</div>
+    </footer>
+
+    <template id="project-card">
+      <article class="card">
+        <img class="thumb" src="" alt="">
+        <div class="card-body">
+          <h4 class="card-title"></h4>
+          <p class="card-desc"></p>
+          <div class="card-actions">
+            <a class="btn btn-sm" target="_blank" rel="noopener">View</a>
+            <button class="btn btn-sm details">Details</button>
+          </div>
+        </div>
+      </article>
+    </template>
+
+    <div id="modal" class="modal" aria-hidden="true">
+      <div class="modal-content">
+        <button id="modalClose" class="modal-close">×</button>
+        <h3 id="modalTitle"></h3>
+        <p id="modalDesc"></p>
+        <a id="modalLink" class="btn" target="_blank" rel="noopener">Open project</a>
+      </div>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

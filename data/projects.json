@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Personal Portfolio",
+    "desc": "My personal website showcasing projects and blog posts.",
+    "thumb": "https://via.placeholder.com/800x400?text=Portfolio",
+    "url": "https://your-portfolio.example.com",
+    "details": "Tech: HTML, CSS, JS. Role: Design and frontend implementation."
+  },
+  {
+    "title": "Task Manager App",
+    "desc": "A productivity app to manage tasks and deadlines.",
+    "thumb": "https://via.placeholder.com/800x400?text=Tasks",
+    "url": "https://tasks.example.com",
+    "details": "Tech: React, Firebase. Role: Built UI and auth flows."
+  },
+  {
+    "title": "E‑commerce Store",
+    "desc": "A small online shop with product pages and checkout.",
+    "thumb": "https://via.placeholder.com/800x400?text=Store",
+    "url": "https://store.example.com",
+    "details": "Tech: Next.js, Stripe. Role: Payment integration and UI."
+  }
+]
