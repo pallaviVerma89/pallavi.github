@@ -1,5 +1,8 @@
 name: Deploy site to GitHub Pages (gh-pages branch)
 
+permissions:
+  contents: write
+
 on:
   push:
     branches: [ main ]
